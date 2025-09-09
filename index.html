@@ -10,14 +10,15 @@
 
 <body>
   <div class="header-bar">
-    <h1 class="title">My Notepad</h1>
+    <h2 class="title">My Notepad</h2>
   </div>
 
-  <hr />
+  <hr/>
 
   <div class="main-content">
-    <label for="Heading">Heading:</label>
-    <select name="Heading-format" id="Heading">
+    <div class="Document-options">
+        <div class="select-options">
+           <select name="Heading-format" id="Heading">
       <option selected>Normal</option>
       <option value="1" class="Head-1">Heading 1</option>
       <option value="2" class="Head-2">Heading 2</option>
@@ -27,7 +28,7 @@
       <option value="6" class="Head-6">Heading 6</option>
     </select>
 
-    <label for="font-f">Font:</label>
+    
     <select name="Font-family" id="font-f">
       <option value="Arial" style="font-family: Arial;">Arial</option>
       <option value="Verdana" style="font-family: Verdana;">Verdana</option>
@@ -42,8 +43,7 @@
       <option value="Arial Black" style="font-family: 'Arial Black';">Arial Black</option>
       <option value="Impact" style="font-family: Impact;">Impact</option>
     </select>
-
-    <div class="Document-options">
+</div>
       <button class="Copy-btn">
         Copy <img src="Assets/copy.png" alt="Copy-Icon" class="copy-icon" />
       </button>
