@@ -2,21 +2,133 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 50px;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: #bbebf3;
 }
 
-h1 {
-    margin-bottom: 20px;
+h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1px;
+    text-align: left;
 }
 
 textarea {
-    width: 80%;
-    height: 400px;
+    width: 95%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #fceaea;
+    margin-left: 10px;
+    margin-right: 10px;
+    resize: none;
+}
+
+hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid rgb(110, 109, 109);
+}
+.Head-1{
+   font-size: 2em;
+}
+.Head-2{
+   font-size: 1.5em;
+}
+.Head-3{
+   font-size: 1.3em;
+}
+.Head-4{
+   font-size: 1.1em;
+}
+.Head-5{
+   font-size: 1em;
+}
+.Head-6{
+   font-size: 0.9em;
+}
+#notepad {
+    width: 100%;
+    margin: 16px 0;
+    box-sizing: border-box;
+    resize: none;
+    min-height: 600px;
     padding: 10px;
     font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #fceaea;
-    resize: none;
+    border-radius: 10px;
+    border: 1px solid #ccc9c9;
+
+}
+
+.header-bar {
+    background-color: #bbebf3;
+    padding: 24px 24px 8px 24px;
+}
+
+.main-content {
+    width: 96%;
+    background: #fff;
+    padding: 16px;
+    border-radius: 12px 12px 12px 12px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    min-height: 80vh
+}
+
+.Document-options {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.Download-btn {
+    background-color: #fff;
+    width: 104px;
+    height: 30px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: 1px solid #1b1b1b;
+
+}
+
+.Upload-btn {
+    background-color: #fff;
+    width: 104px;
+    height: 30px;
+    border: none;
+}
+
+.Copy-btn {
+    background-color: #fff;
+    width: 104px;
+    height: 30px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid #1b1b1b;
+}
+
+
+.download-icon {
+
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+
+}
+
+.upload-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.copy-icon {
+    width: 14px;
+    height: 16px;
+    vertical-align: middle;
+
 }
