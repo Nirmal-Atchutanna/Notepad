@@ -2,73 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Notepad</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="style.css">
-=======
-    <link rel="stylesheet" href="style.css" />
->>>>>>> dfa75a6 (Added features to the notepad)
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Notepad</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-<<<<<<< HEAD
-    <h1>My Notepad</h1>
+  <div class="header-bar">
+    <h1 class="title">My Notepad</h1>
+  </div>
+
+  <hr />
+
+  <div class="main-content">
+    <label for="Heading">Heading:</label>
+    <select name="Heading-format" id="Heading">
+      <option selected>Normal</option>
+      <option value="1" class="Head-1">Heading 1</option>
+      <option value="2" class="Head-2">Heading 2</option>
+      <option value="3" class="Head-3">Heading 3</option>
+      <option value="4" class="Head-4">Heading 4</option>
+      <option value="5" class="Head-5">Heading 5</option>
+      <option value="6" class="Head-6">Heading 6</option>
+    </select>
+
+    <label for="font-f">Font:</label>
+    <select name="Font-family" id="font-f">
+      <option value="Arial" style="font-family: Arial;">Arial</option>
+      <option value="Verdana" style="font-family: Verdana;">Verdana</option>
+      <option value="Helvetica" style="font-family: Helvetica;">Helvetica</option>
+      <option value="Times New Roman" style="font-family: 'Times New Roman';">Times New Roman</option>
+      <option value="Courier New" style="font-family: 'Courier New';">Courier New</option>
+      <option value="Georgia" style="font-family: Georgia;">Georgia</option>
+      <option value="Palatino" style="font-family: Palatino;">Palatino</option>
+      <option value="Garamond" style="font-family: Garamond;">Garamond</option>
+      <option value="Comic Sans MS" style="font-family: 'Comic Sans MS';">Comic Sans MS</option>
+      <option value="Trebuchet MS" style="font-family: 'Trebuchet MS';">Trebuchet MS</option>
+      <option value="Arial Black" style="font-family: 'Arial Black';">Arial Black</option>
+      <option value="Impact" style="font-family: Impact;">Impact</option>
+    </select>
+
+    <div class="Document-options">
+      <button class="Copy-btn">
+        Copy <img src="Assets/copy.png" alt="Copy-Icon" class="copy-icon" />
+      </button>
+
+      <button class="Upload-btn">
+        Upload <img src="Assets/upload.gif" alt="Upload Icon" class="upload-icon" />
+      </button>
+
+      <button class="Download-btn">
+        Download <img src="Assets/Download1.gif" alt="Download Icon" class="download-icon" />
+      </button>
+    </div>
+
     <textarea id="notepad" placeholder="Type your notes here..."></textarea>
-    <script src="script.js"></script>
-</body>
-</html>
-=======
-    <div class="header-bar">
-        <h2 class="h1">My Notepad</h2>
-    </div>
+  </div>
 
-    <hr />
-    <div class="main-content">
-        <div>
-            <select name="Heading-format" id="Heading">
-                <option Selected> Normal</option>
-                <option value="1" class="Head-1">Heading 1</option>
-                <option value="2" class="Head-2">Heading 2</option>
-                <option value="3" class="Head-3">Heading 3</option>
-                <option value="4" class="Head-4">Heading 4</option>
-                <option value="5" class="Head-5">Heading 5</option>
-                <option value="6" class="Head-6">Heading 6</option>
-            </select>
-            <select name="Font-family" id="font-f">
-                <option value="Arial" style="font-family: Arial;">Arial</option>
-                <option value="Verdana" style="font-family: Verdana;">Verdana</option>
-                <option value="Helvetica" style="font-family: Helvetica;">Helvetica</option>
-                <option value="Times New Roman" style="font-family: 'Times New Roman';">Times New Roman</option>
-                <option value="Courier New" style="font-family: 'Courier New';">Courier New</option>
-                <option value="Georgia" style="font-family: Georgia;">Georgia</option>
-                <option value="Palatino" style="font-family: Palatino;">Palatino</option>
-                <option value="Garamond" style="font-family: Garamond;">Garamond</option>
-                <option value="Comic Sans MS" style="font-family: 'Comic Sans MS';">Comic Sans MS</option>
-                <option value="Trebuchet MS" style="font-family: 'Trebuchet MS';">Trebuchet MS</option>
-                <option value="Arial Black" style="font-family: 'Arial Black';">Arial Black</option>
-                <option value="Impact" style="font-family: Impact;">Impact</option>
-            </select>
-            <div class="Document-options">
-                <button class="Copy-btn">
-                    Copy <img src="/Assets/copy.png" alt="Copy-Icon" class="copy-icon" />
-                </button>
-
-                <button class="Upload-btn">
-                    Upload
-                    <img src="/Assets/upload.gif" alt="Save Icon" class="upload-icon" />
-                </button>
-
-                <button class="Download-btn">
-                    Download<img src="/Assets/Download1.gif" alt="Download Icon" class="download-icon" />
-                </button>
-            </div>
-        </div>
-
-        <textarea id="notepad" placeholder="Type your notes here..."></textarea>
-    </div>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
