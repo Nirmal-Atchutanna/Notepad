@@ -10,9 +10,9 @@ body {
 
 h2 {
     position: absolute;
-      top: 0;
-  left: 0;
-  padding: 10px;
+    top: 0;
+    left: 0;
+    padding: 10px;
     margin: 0;
     text-align: left;
 }
@@ -20,35 +20,42 @@ h2 {
 textarea {
     width: 95%;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 1px;
     border: 1px solid #fceaea;
     margin-left: 10px;
     margin-right: 10px;
-    resize: none;
+
 }
 
 hr {
-  margin-top: 0px;
+    margin-top: 0px;
     border-top: 1px solid rgb(29, 28, 28);
 }
-.Head-1{
-   font-size: 2em;
+
+.Head-1 {
+    font-size: 2em;
 }
-.Head-2{
-   font-size: 1.5em;
+
+.Head-2 {
+    font-size: 1.5em;
 }
-.Head-3{
-   font-size: 1.3em;
+
+.Head-3 {
+    font-size: 1.3em;
 }
-.Head-4{
-   font-size: 1.1em;
+
+.Head-4 {
+    font-size: 1.1em;
 }
-.Head-5{
-   font-size: 1em;
+
+.Head-5 {
+    font-size: 1em;
 }
-.Head-6{
-   font-size: 0.9em;
+
+.Head-6 {
+    font-size: 0.9em;
 }
+
 #notepad {
     width: 100%;
     margin: 16px 0;
@@ -90,7 +97,6 @@ hr {
     border-bottom: none;
     border-right: none;
     border-left: 1px solid #1b1b1b;
-
 }
 
 .Upload-btn {
@@ -110,7 +116,6 @@ hr {
     border-right: 1px solid #1b1b1b;
 }
 
-
 .download-icon {
 
     width: 20px;
@@ -129,11 +134,55 @@ hr {
     width: 14px;
     height: 16px;
     vertical-align: middle;
-
 }
+
 .select-options {
     display: flex;
-    gap: 10px;
+    margin-right: auto;
+    gap: 8px;
+    padding: 8px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.color-picker {
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+    border: 0.5px solid #1b1b1b;
+}
+
+.color-pick {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+.color-label {
+    position: relative;
+    display: inline-flex;
     align-items: center;
-    margin-right: auto; 
+    justify-content: center;
+    width: 20px;
+    height: 28px;
+    border: 0.5px solid #1b1b1b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.text-color-icon {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+}
+.btn-icon{
+    width: 20px;
+    height: 20px;
+}
+.icon-btn{
+    width: 30px;
+    height: 30px;
 }
